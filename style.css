@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  :root {
+    font-size: 62.5%;
+    --red: #e06666ff;
+    --beige: #e9e6e1;
+    --blue: #8dccd0;
+    --green: #b6d673;
+    --yellow: #f6e087;
+    --purple: #8e7cc3ff;
+    --orange: #e19d76;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: var(--beige);
+    padding: 2rem;
+}
+  
+  .container {
+    width: 95%;
+  }
+  
+  .container div {
+    font-size: 3rem;
+    color: #3e3e3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container div:nth-child(1) {
+    background-color: var(--red);
+  }
+  
+  .container div:nth-child(2) {
+    background-color: var(--orange);
+  }
+  
+  .container div:nth-child(3) {
+    background-color: var(--yellow);
+  }
+  
+  .container div:nth-child(4) {
+    background-color: var(--green);
+  }
+  
+  .container div:nth-child(5) {
+    background-color: var(--blue);
+  }
+  
+  .container div:nth-child(6) {
+    background-color: var(--purple);
+  }
+  
+  .container div:nth-child(7) {
+    background-color: var(--orange);
+  }
+  
+  .container div:nth-child(8) {
+    background-color: var(--green);
+  }
+  
+  .container div:nth-child(9) {
+    background-color: var(--purple);
+  }
+  
+  .container div:nth-child(10) {
+    background-color: var(--blue);
+  }
+  
+  .container div:nth-child(11) {
+    background-color: var(--red);
+  }
+  
+  .container div:nth-child(12) {
+    background-color: var(--yellow);
+  }
